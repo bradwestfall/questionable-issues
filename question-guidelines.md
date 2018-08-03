@@ -47,29 +47,29 @@ The tags for this question would be `JavaScript`, `ES6`, `Objects`, `Spread Oper
 
 Before anything, you need to know what difficulty level you're aiming for with the overall test. Each question has a difficulty attribute which you'll chose so it's important to know what what the test's difficulty should end up at. However, not every question's difficulty level has to perfectly match the test's difficulty. For example, lets say there are two JavaScript tests in the marketplace for "Beginner JavaScript" and "Advanced JavaScript". Since the difficulty attribute of questions is on a 1-3 scale (1 being the easiest and 3 being the hardest) the "Beginner JavaScript" test should have mostly 1's and maybe a few 2's. The "Advanced JavaScript" might have mostly 3's and a few 2's.
 
-The main point here is to know what your test first so you can focus making a Subject List for that test
+The main point here is to know what your test first so you can focus making Subject Groups for the test:
 
-### 2. Make a test "Subject List"
+### 2. Make "Subject Groups"
 
-The purpose of the subject list is to brainstorm and mentally prepare for the types of questions you're going to write. Don't underestimate this step. Based on the difficulty you're writing for in Step 1, this list will help you stay focused on what questions to write for.
+The purpose of the subject groups is to brainstorm and mentally prepare for the types of questions you're going to write. Don't underestimate this step. Based on the difficulty you're writing for in Step 1, this list of groups will help you stay focused on what questions to write for.
 
-If the test is "Beginner JavaScript", your subjects might be:
+If the test is "Beginner JavaScript", your subject groups might be:
 - Basic Arrays and Objects
 - Loops and Conditionals
 - Data Types
 - _etc..._
 
-If the test is more advanced, you can probably imagine the list of subjects is more advanced.
+If the test is more advanced, you can probably imagine the groups are more advanced.
 
 
 ## Start Writing Questions
 
-Now that you have your Test Subject List, start writing a few questions in each subject. Perhaps one of your subjects was "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`.
+Now that you have your subject groups, start writing a few questions in group. Perhaps one of your groups was "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`.
 
-Be deliberate on deciding what piece of knowledge the question is testing. In this case it's "Does the test taker know how to use `instanceof`". Then consider the "ways" that you can write this question. Generally speaking, if you have a specific thing you want to test knowledge on, there are two fundamental ways the question can be written:
+Be deliberate on deciding what subject matter the question is testing. In this case it's "Does the test taker know how to use `instanceof`". Then consider the "ways" that you can write this question. Generally speaking, if you have a specific subject matter you want to test, there are two fundamental ways the question can be written:
 
-1. The piece of knowledge is in the question, or
-2. The piece of knowledge is in the answers.
+1. The subject matter is in the question, or
+2. The subject matter is in the answers.
 
 Here's an example. You could write the question like this:
 
@@ -87,7 +87,7 @@ console.log(dave instanceof Model, dave instanceof User)
 3. `true, false`
 4. It will get an error
 
-This is an example of the "piece of knowledge" being in the question. By contrast, we could have tested for the same piece of knowledge by flipping things around and having the question be more ambiguous and having the "piece of knowledge" in the answers:
+This is an example of the subject matter (`instanceof`) being in the question. By contrast, we could have tested for the same subject matter by flipping things around and having the question be more ambiguous and the subject matter be in the answers:
 
 _Assuming you have a `myUser` variable and you need to ensure that it is an instance of a `User` object, which of these is the best choice?_
 
@@ -95,3 +95,7 @@ _Assuming you have a `myUser` variable and you need to ensure that it is an inst
 2. _`typeof myUser === 'Object' && myUser.is(User)`_
 3. _`myUser.type === User`_
 4. _`typeof myUser === User`_
+
+The first way, with the subject matter in the question, it alerts the test taker that `instanceof` exists and we're asking them to figure out some nuances about how it works. The second way, with it in the answers, the user doesn't know that `instanceof` necessarily exists, they just know that a problem exists and they have to choose `instanceof` as the correct solution.
+
+Neither way is inherently better than the other. Just keep this tip in mind when you're thinking about how to write questions.

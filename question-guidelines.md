@@ -73,7 +73,13 @@ Be deliberate on deciding what piece of knowledge the question is testing. In th
 
 Here's an example question where the piece of knowledge is in the question:
 
-> test
-> [ ] one
-
-
+_What will the `finalResult` be of this code_
+```js
+const getAge = n => {
+  return 'Your age is ' + typeof n === Number ? n : 'Unknown'
+}
+const myAge = getAge('22')
+```
+[x]
+[]
+[]

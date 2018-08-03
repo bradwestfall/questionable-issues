@@ -75,7 +75,7 @@ Here's an example. You could write the question like this:
 
 _Assuming you have a `myUser` variable and you need to ensure that it is an instance of a `User` object, which of these is the best choice?_
 
-1. _myUser instanceof User_
+1. _`myUser instanceof User`_
 2. _typeof myUser === 'Object' && myUser.is(User)_
 3. _myUser.type === User_
 4. _typeof myUser === User_

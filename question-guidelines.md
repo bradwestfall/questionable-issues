@@ -7,10 +7,10 @@ For the purposes of this guide, all examples will be demonstrated in the Web lan
 ## Terms
 
 - **Marketplace Author:** The person writing tests for the purpose of publishing them into the Marketplace for sale (presumably you).
-- **Test Admin:** The administrator of a test. In once sense, the Marketplace Author is technically the Test Admin of their tests, but for the purpose of this document, the person buying your test to administer it to others is also the Test Admin (of the copy of the test they bought).
+- **Test Admin:** Anyone who has a Questionable account and has tests to send to test takers. In a sense, the Marketplace Author is technically the Test Admin of their tests for their account, but for the purpose of this document, the person buying your test to administer it to others is also the Test Admin (of the copy of the test they bought) when the test is copied to their account.
 - **Test Taker:** The end-user taking the test with the oversight of the Test Admin.
 - **Distractor Options:** This is an academic term for "the wrong answers" in a multiple choice question.
-- **Difficulty Level:** All questions are marked for their difficulty on a 1-3 scale.
+- **Difficulty Level:** All questions are marked for their difficulty on a 1-3 scale. Strategies for choosing difficulty are listed later in this document.
 
 ## Tags
 

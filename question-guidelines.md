@@ -49,22 +49,22 @@ Before anything, you need to know what difficulty level you're aiming for with t
 
 The main point here is to know what your test first so you can focus making Subject Groups for the test:
 
-### 2. Make "Subject Groups"
+### 2. Make a "Subjects List"
 
-The purpose of the subject groups is to brainstorm and mentally prepare for the types of questions you're going to write. Don't underestimate this step. Based on the difficulty you're writing for in Step 1, this list of groups will help you stay focused on what questions to write for.
+The purpose of the subjects list is to brainstorm and mentally prepare for the types of questions you're going to write. Don't underestimate this step. Based on the difficulty you're writing for in Step 1, this list will help you stay focused on what questions to write for.
 
-If the test is "Beginner JavaScript", your subject groups might be:
+If the test is "Beginner JavaScript", your subject list might be:
 - Basic Arrays and Objects
 - Loops and Conditionals
 - Data Types
 - _etc..._
 
-If the test is more advanced, you can probably imagine the groups are more advanced.
+If the test is more advanced, you can probably imagine the subjects are more advanced.
 
 
 ## Start Writing Questions
 
-Now that you have your subject groups, start writing a few questions in group. Perhaps one of your groups was "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`.
+Now that you have your subject list, start writing a few questions in each subject. Perhaps one of your subjects is "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`...
 
 ### "Knowledge Unit" Questions
 

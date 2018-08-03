@@ -66,12 +66,14 @@ If the test is more advanced, you can probably imagine the groups are more advan
 
 Now that you have your subject groups, start writing a few questions in group. Perhaps one of your groups was "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`.
 
-Be deliberate on deciding what subject matter the question is testing. In this case it's "Does the test taker know how to use `instanceof`". Then consider the "ways" that you can write this question. Generally speaking, if you have a specific subject matter you want to test, there are two fundamental ways the question can be written:
+### "Knowledge Unit" Questions
 
-1. The subject matter is in the question, or
-2. The subject matter is in the answers.
+Be deliberate on deciding what knowledge unit the question is testing. In this case it's "Does the test taker know how to use `instanceof`". Then consider the "ways" that you can write this question. Generally speaking, if you have a specific knowledge unit you want to test, there are two fundamental ways the question can be written:
 
-Here's an example. You could write the question like this:
+1. The knowledge unit is in the question, **or**
+2. The knowledge unit is in the answers.
+
+As an example, you could write the question like this:
 
 _What is the following code going to output?_
 
@@ -87,15 +89,25 @@ console.log(dave instanceof Model, dave instanceof User)
 3. `true, false`
 4. It will get an error
 
-This is an example of the subject matter (`instanceof`) being in the question. By contrast, we could have tested for the same subject matter by flipping things around and having the question be more ambiguous and the subject matter be in the answers:
+This is an example of the knowledge unit (`instanceof`) apart of the question. By contrast, we could have tested for the same knowledge unit by flipping things around and having the question be more ambiguous and the knowledge unit be among the answers:
 
-_Assuming you have a `myUser` variable and you need to ensure that it is an instance of a `User` object, which of these is the best choice?_
+_Assuming you have a `dave` variable and you need to ensure that it is an instance of a `User` object, which of these is the best choice?_
 
-1. _`myUser instanceof User`_
-2. _`typeof myUser === 'Object' && myUser.is(User)`_
-3. _`myUser.type === User`_
-4. _`typeof myUser === User`_
+1. _`dave instanceof User`_
+2. _`typeof dave === 'Object' && dave.is(User)`_
+3. _`dave.type === User`_
+4. _`typeof dave === User`_
 
-The first way, with the subject matter in the question, it alerts the test taker that `instanceof` exists and we're asking them to figure out some nuances about how it works. The second way, with it in the answers, the user doesn't know that `instanceof` necessarily exists, they just know that a problem exists and they have to choose `instanceof` as the correct solution.
+Having the knowledge unit be apart of the question typically alerts to them that the _something_ exists and we need to see if they know how it works. If the user didn't know that `instanceof` existed before, they do now. The answer options are then trying to determine if the user knows "how it works".
 
-Neither way is inherently better than the other. Just keep this tip in mind when you're thinking about how to write questions.
+With the knowledge unit as apart of the answers, the question becomes more about _solving some problem_ and they have to now figure out which options solves that problem.
+
+#### How are they different?
+
+Neither way is inherently better, but consider that often times the first approach leads to a slightly more complex chunk of code -- which means that you'll probably be introducing other concepts besides the knowledge unit that the test taker must know in order to fully understand the question. In this example, we uses classes and inheritance -- which is there for context.
+
+As a general rule, it might be best to limit the context code and to ensure that it's complexity doesn't exceed the complexity of the knowledge unit itself. From a reporting standpoint, imagine if the test taker is getting this question wrong but it's not because they didn't understand `instanceof`, it's because they didn't understand something something in context code. This question might be tagged for `Data Types` and the reporting might indicate the user didn't get some of the `Data Types` questions correct -- but the reality might be that they just didn't understand classes and inheritance as much.
+
+Having "context code" is often times unavoidable when writing code questions, just try to be mindful of what the question is trying to accomplish. If you do want a comprehensive question, that's totally okay (and encouraged to have some), just be mindful that it is a comprehensive question, it's probably not beginner level, and we need to tag these questions as `Comprehesive`.
+
+### Distractor Options

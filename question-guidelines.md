@@ -38,7 +38,7 @@ The tags for this question would be `JavaScript`, `ES6`, `Objects`, `Spread Oper
 
 ## Difficulty
 
-
+...
 
 
 ## Before you Start
@@ -104,10 +104,14 @@ With the knowledge unit as apart of the answers, the question becomes more about
 
 #### How are they different?
 
-Neither way is inherently better, but consider that often times the first approach leads to a slightly more complex chunk of code -- which means that you'll probably be introducing other concepts besides the knowledge unit that the test taker must know in order to fully understand the question. In this example, we uses classes and inheritance -- which is there for context.
+Neither way is inherently better, but each of these ways has "characteristics" you should be aware of.
+
+Consider that often times the first approach leads to a slightly more complex chunk of code -- which means that you'll probably be introducing other concepts besides the knowledge unit that the test taker must know in order to fully understand the question. In this example, we uses classes and inheritance -- which is there for context.
 
 As a general rule, it might be best to limit the context code and to ensure that it's complexity doesn't exceed the complexity of the knowledge unit itself. From a reporting standpoint, imagine if the test taker is getting this question wrong but it's not because they didn't understand `instanceof`, it's because they didn't understand something something in context code. This question might be tagged for `Data Types` and the reporting might indicate the user didn't get some of the `Data Types` questions correct -- but the reality might be that they just didn't understand classes and inheritance as much.
 
 Having "context code" is often times unavoidable when writing code questions, just try to be mindful of what the question is trying to accomplish. If you do want a comprehensive question, that's totally okay (and encouraged to have some), just be mindful that it is a comprehensive question, it's probably not beginner level, and we need to tag these questions as `Comprehesive`.
+
+A characteristic of the second way of writing questions (with the knowledge unit in the answers) is that you'll have to make up "fake things" sometimes. In other words, if we have a correct option like `dave instanceof User`, we'll need some distractor options that seem like they _could_ be correct but aren't quite correct. For example, JavaScript has no `.is` method built into objects to have `dave.is(User)` as a possibility, but it seems plausable to a beginner that this could be the right answer.
 
 ### Distractor Options

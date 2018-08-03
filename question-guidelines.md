@@ -80,6 +80,6 @@ const getAge = n => {
 }
 const myAge = getAge('22')
 ```
-[x]
-[]
-[]
+- [x]
+- []
+- []

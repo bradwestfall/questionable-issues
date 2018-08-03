@@ -73,9 +73,25 @@ Be deliberate on deciding what piece of knowledge the question is testing. In th
 
 Here's an example. You could write the question like this:
 
+_What is the following code going to output?_
+
+```js
+class Model {}
+class User extends Model {}
+const dave = new User()
+console.log(dave instanceof Model, dave instanceof User)
+```
+
+1. `true, true`
+2. `false, true`
+3. `true, false`
+4. It will get an error
+
+This is an example of the "piece of knowledge" being in the question. By contrast, we could have tested for the same piece of knowledge by flipping things around and having the question be more ambiguous and having the "piece of knowledge" in the answers:
+
 _Assuming you have a `myUser` variable and you need to ensure that it is an instance of a `User` object, which of these is the best choice?_
 
 1. _`myUser instanceof User`_
-2. _typeof myUser === 'Object' && myUser.is(User)_
-3. _myUser.type === User_
-4. _typeof myUser === User_
+2. _`typeof myUser === 'Object' && myUser.is(User)`_
+3. _`myUser.type === User`_
+4. _`typeof myUser === User`_

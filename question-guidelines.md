@@ -64,23 +64,18 @@ If the test is more advanced, you can probably imagine the list of subjects is m
 
 ## Start Writing Questions
 
-Now that you have your Test Subject List, start writing a few questions in each subject. Perhaps one of your subjects was "Data Types" and you want to write a question to see if the test taker knows what the Number type is:
+Now that you have your Test Subject List, start writing a few questions in each subject. Perhaps one of your subjects was "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`.
 
-Be deliberate on deciding what piece of knowledge the question is testing. In this case it's "Does the test taker know about the Number data type". Then consider the "ways" that you can write this question. Generally speaking, if you have a specific thing you want to test knowledge on, there are two fundamental ways the question can be written:
+Be deliberate on deciding what piece of knowledge the question is testing. In this case it's "Does the test taker know how to use `instanceof`". Then consider the "ways" that you can write this question. Generally speaking, if you have a specific thing you want to test knowledge on, there are two fundamental ways the question can be written:
 
 1. The piece of knowledge is in the question, or
-2. The piece of knowledge is in the answer.
+2. The piece of knowledge is in the answers.
 
-Here's an example question where the piece of knowledge is in the question:
+Here's an example. You could write the question like this:
 
-_What will the `finalResult` be of this code_
-```js
-const getAge = n => {
-  return 'Your age is ' + typeof n === Number ? n : 'Unknown'
-}
-const myAge = getAge('22')
-```
+_Assuming you have a `myUser` variable and you need to ensure that it is an instance of a `User` object, which of these is the best choice?_
 
-- [x]
-- [ ]
-- [ ]
+1. _myUser instanceof User_
+2. _typeof myUser === 'Object' && myUser.is(User)_
+3. _myUser.type === User_
+4. _typeof myUser === User_

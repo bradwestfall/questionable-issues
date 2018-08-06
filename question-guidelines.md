@@ -36,20 +36,17 @@ const finalResult = { primary, ...secondary }
 
 The tags for this question would be `JavaScript`, `ES6`, `Objects`, `Spread Operator`.
 
-
-
 ## Difficulty
 
-...
+Each question will have a difficulty set as a number between 1 and 3 (where 1 is for easier questions and 3 is for more difficult questions). Since this is somewhat subjective, the granularity is low with only three levels. The test's overall difficulty will be derived from its questions as an average for the purpose of displaying on the Marketplace and so Test Author's know that their "Beginner ... Test" is in fact more "beginner".
 
+However, not every question's difficulty level must perfectly match the test's difficulty. The average of a beginner test just needs to be closer to 1 whereas the average of a more advanced test should be closer to 3.
 
 ## Before you Start
 
 ### 1. Difficulty
 
-Before anything, you need to know what difficulty level you're aiming for with the overall test. Each question has a difficulty attribute which you'll chose so it's important to know what what the test's difficulty should end up at. However, not every question's difficulty level has to perfectly match the test's difficulty. For example, lets say there are two JavaScript tests in the marketplace for "Beginner JavaScript" and "Advanced JavaScript". Since the difficulty attribute of questions is on a 1-3 scale (1 being the easiest and 3 being the hardest) the "Beginner JavaScript" test should have mostly 1's and maybe a few 2's. The "Advanced JavaScript" might have mostly 3's and a few 2's.
-
-The main point here is to know what your test first so you can focus making Subject Groups for the test:
+Before anything, you need to know what difficulty level you're aiming for with the overall test. This way you can try to ensure your question brainstorming process and choosing Subject Lists (next section) are inline with the purpose of the test.
 
 ### 2. Make a "Subjects List"
 

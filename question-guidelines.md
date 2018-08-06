@@ -71,7 +71,6 @@ Once you have your Subject Lists and Difficulty determined, it's time to start w
 Now that you have your Subject Lists, start writing a few questions in each subject. Perhaps one of your subjects is "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`. Making a question that specifically tests `instanceof` makes what's called a knowledge unit.
 
 ### "Knowledge Unit" Questions
-<hr />
 
 A Knowledge Unit question is meant to test a specific piece of knowledge. As you review your Subject Lists, you might have a subject called "Objects" and perhaps you want to assess whether the test taker knows how to use `instanceof`. Then "Does the test taker know how to use `instanceOf`?" is your Knowledge Unit.
 
@@ -119,7 +118,7 @@ As a general rule, it might be best to limit the context code and to ensure that
 
 Having "context code" is often times unavoidable when writing code questions, just try to be mindful of what the question is trying to accomplish. If you do want a comprehensive question, that's totally okay (and encouraged to have some), just be mindful that it is a comprehensive question, it's probably not beginner level, and we need to tag these questions as `Comprehesive`.
 
-A characteristic of the second way of writing questions (with the knowledge unit in the answers) is that you'll have to make up "fake things" sometimes. In other words, if we have a correct option like `dave instanceof User`, we'll need some distractor options that seem like they _could_ be correct but aren't quite correct. For example, JavaScript has no `.is` method built into objects to have `dave.is(User)` as a possibility, but it seems plausable to a beginner that this could be the right answer.
+A characteristic of the second way of writing questions (with the knowledge unit in the answers) is that you'll have to make up "fake things" sometimes. In other words, if we have a correct option like `dave instanceof User`, we'll need some distractor options that seem like they _could_ be correct but aren't quite correct. For example, JavaScript has no `.is` method built into objects to have `dave.is(User)` as a possibility, but it seems plausible to a beginner that this could be the right answer.
 
 ### Comprehensive Questions
 

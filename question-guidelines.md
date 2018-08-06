@@ -20,7 +20,7 @@ From a reporting and statistical standpoint, tags are grouped by unique Tag Name
 
 Reports like the Gap Analysis Report which allow Test Admin to analyze data on a tag-basis are attractive features for Questionable so this is why it is very important that **all questions** be tagged with at least one tag, but more are preferred (2-4 can be considered an average).
 
-Unless there's a good reason to do otherwise, tags should be written as titles (with the first letter of each word capitalized), such as `Arrow Functions`, not `arrow functions`. Common acronyms like `HTML` can be written in all-caps.
+Unless there's a good reason to do otherwise, tags should be written with title casing (with the first letter of each word capitalized), such as `Arrow Functions`, not `arrow functions`. Common acronyms like `HTML` can be written in all-caps.
 
 ### Tagging Strategy
 

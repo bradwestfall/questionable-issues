@@ -63,11 +63,19 @@ If the test is more advanced, you can probably imagine the subjects are more adv
 
 ## Start Writing Questions
 
-Now that you have your subject list, start writing a few questions in each subject. Perhaps one of your subjects is "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`...
+Once you have your Subject Lists and Difficulty determined, it's time to start writing questions. This next section will help you break down how questions are written and what types of questions are good at testing for different types of knowledge.
+
+- Knowledge Unit Questions
+- Comprehensive Questions
+
+Now that you have your Subject Lists, start writing a few questions in each subject. Perhaps one of your subjects is "Objects" and you want to write a question to see if the test taker knows how to use `instanceof`. Making a question that specifically tests `instanceof` makes what's called a knowledge unit.
 
 ### "Knowledge Unit" Questions
+<hr />
 
-Be deliberate on deciding what knowledge unit the question is testing. In this case it's "Does the test taker know how to use `instanceof`". Then consider the "ways" that you can write this question. Generally speaking, if you have a specific knowledge unit you want to test, there are two fundamental ways the question can be written:
+A Knowledge Unit question is meant to test a specific piece of knowledge. As you review your Subject Lists, you might have a subject called "Objects" and perhaps you want to assess whether the test taker knows how to use `instanceof`. Then "Does the test taker know how to use `instanceOf`?" is your Knowledge Unit.
+
+Now let's consider the two main ways that a knowledge unit question is usually written:
 
 1. The knowledge unit is in the question, **or**
 2. The knowledge unit is in the answers.
@@ -113,4 +121,7 @@ Having "context code" is often times unavoidable when writing code questions, ju
 
 A characteristic of the second way of writing questions (with the knowledge unit in the answers) is that you'll have to make up "fake things" sometimes. In other words, if we have a correct option like `dave instanceof User`, we'll need some distractor options that seem like they _could_ be correct but aren't quite correct. For example, JavaScript has no `.is` method built into objects to have `dave.is(User)` as a possibility, but it seems plausable to a beginner that this could be the right answer.
 
-### Distractor Options
+### Comprehensive Questions
+
+...
+

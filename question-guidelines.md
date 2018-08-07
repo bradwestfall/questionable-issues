@@ -163,6 +163,8 @@ We've all taken tests that allowed us to figure out the correct answer because o
 
 One idea might be to have a coder friend take the test -- someone who does code but not necessarily in the language that you write the test for. They should do very poorly if they don't know the language. Ask them to identify which questions were easier to guess at.
 
+There is also another type of process-of-elimination. Sometimes one of your questions can give away the answers to your other questions. For example, you might have a CSS question that states "What does this pseudo-selector need to accomplish our goal?" By doing so you are telling the test taker exactly what a pseudo selector looks like. That might remind them that just a few questions ago, there was a question asking "What type of selector is this?" -- to which "pseudo selector" was an option. They didn't know the answer before, but they do now. Sometimes these can be difficult to avoid, just be aware of the concept.
+
 
 #### Avoid Trick Questions
 
@@ -175,7 +177,7 @@ For the `instanceof` question we used in previous examples, there were four opti
 3. _`dave.type === User`_
 4. _`typeof dave === User`_
 
-Sometimes you'll have to get creative in writing the distractor answers because you'll have to "make up" coding concepts that don't exist. In this case, I made up `dave.is()` and `dave.type` which don't exist in JavaScript. The fourth answer uses `typeof` which does exist but is used completely incorrectly. There is only one answer which could possibly be correct which is #1.
+You might have to get creative in writing the distractor answers because you'll have to "make up" coding concepts that don't exist. In this case, I made up `dave.is()` and `dave.type` which don't exist in JavaScript. The fourth answer uses `typeof` which does exist but is used completely incorrectly. There is only one answer which could possibly be correct which is #1.
 
 Sometimes having the "made up" answers that seem plausible is the best way to ensure that one of your distractor answers can't be construed as the correct answer, and therefore becoming an unintentional trick question.
 

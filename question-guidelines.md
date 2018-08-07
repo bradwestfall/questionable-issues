@@ -116,11 +116,39 @@ Consider that often times the first approach leads to more code -- which means t
 
 As a general rule, it might be best to limit the context code to be as simple or more simple than the knowledge unit itself. From a reporting standpoint, imagine if the test taker is getting this question wrong but it's not because they didn't understand `instanceof`, it's because they didn't understand something in context code.
 
-A characteristic of the second way of writing questions (with the knowledge unit in the answers) is that you'll have to make up "fake things" sometimes. In other words, if we have a correct option like `dave instanceof User`, we'll need some distractor options that seem like they _could_ be correct but aren't quite correct. For example, JavaScript has no `.is` method built into objects to have `dave.is(User)` as a possibility, but it seems plausible to a beginner that this could be the right answer.
+A characteristic of the second way of writing questions (with the knowledge unit in the answers) is that you'll have to make up "fake things" sometimes. In other words, if you have a correct option like `dave instanceof User`, you'll need some distractor options that seem like they _could_ be correct but aren't quite correct. For example, JavaScript has no `.is` method built into objects to have `dave.is(User)` as a possibility, but it seems plausible to a beginner that this could be the right answer.
 
 
 ### Comprehensive Questions
 
-Sometimes we end up with too much context code in our knowledge unit questions, or we simply want to test the user on a variety of things at once. These are what we call comprehensive questions and we need to be tagged `Comprehesive`.
+Sometimes we end up with too much context code in our knowledge unit questions, or we simply want to test the user on a variety of things at once. For these situations, we call these questions comprehensive and we need to be tagged `Comprehesive`.
 
 
+## Quality Guidelines
+
+- [Prefer Concepts over Terminology](./prefer-concepts-over-terminology)
+
+
+
+
+#### Prefer Concepts over Terminology
+
+One of the things that makes Questionable a great tool is it's code enabled questions. This uniquely means that we can test for coding concepts over coding jargon. Keep in mind that many talented coders might know how a concept works but not necessarily the correct terminology for that concept. Questions are higher quality when they assess someone's real coding knowledge instead of their knowledge of the right terms. On Questionable, we want to limit the number of terminology questions to under 10% per test.
+
+We do think you should be creative though in assessing whether or not the test taker knows a term without ever having to mention that term. For example, in JavaScript if we want to assess whether someone knows what "closure" is, we can do so without ever mentioning the term closure in the question or the answers. Here's an example question that does just that:
+
+_What will the `console.log()` produce with this code example?_
+
+```js
+function addFive() {
+  const five = 5
+  const adder = n => {
+    return n + five
+  }
+  return adder
+}
+const myAdder = addFive()
+console.log(myAdder(4))
+```
+
+In order to get the correct answer, one would have to know how closures work -- even though they might not know what closures are. This is a perfect example of testing someone through concept instead of terminology.

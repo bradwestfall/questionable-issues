@@ -95,7 +95,7 @@ console.log(dave instanceof Model, dave instanceof User)
 3. `true, false`
 4. It will get an error
 
-This is an example of the knowledge unit (`instanceof`) apart of the question. By contrast, we could have tested for the same knowledge unit by flipping things around and having the question be more ambiguous and the knowledge unit be among the answers:
+By contrast, we could have tested for the same knowledge unit by flipping things around and having the question be more ambiguous and the knowledge unit be among the answers:
 
 _Assuming you have a `dave` variable and you need to ensure that it is an instance of a `User` object, which of these is the best choice?_
 

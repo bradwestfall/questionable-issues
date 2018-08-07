@@ -168,7 +168,7 @@ There is also another type of process-of-elimination. Sometimes one of your ques
 
 #### Avoid Trick Questions
 
-Sometimes it can seem like a thin line between "Avoid Process-of-Elimination" and yet "Avoid Trick Questions". To help with this, just try to write basic strait forward questions with one distinctly correct answer and several distinctly incorrect ones.
+Sometimes it can seem like a thin line between writing good distractor options and yet "Avoid Trick Questions". To help with this, just try to write basic strait forward questions with one distinctly correct answer and several distinctly incorrect ones.
 
 For the `instanceof` question we used in previous examples, there were four options to choose from:
 

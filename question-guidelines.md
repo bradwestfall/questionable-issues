@@ -177,7 +177,7 @@ For the `instanceof` question we used in previous examples, there were four opti
 3. _`dave.type === User`_
 4. _`typeof dave === User`_
 
-You might have to get creative in writing the distractor answers because you'll have to "make up" coding concepts that don't exist. In this case, I made up `dave.is()` and `dave.type` which don't exist in JavaScript. The fourth answer uses `typeof` which does exist but is used completely incorrectly. There is only one answer which could possibly be correct which is #1.
+You might need to get creative in writing the distractor answers because you'll have to "make up" coding concepts that don't exist. In this case, I made up `dave.is()` and `dave.type` which don't exist in JavaScript. The fourth answer uses `typeof` which does exist but is used completely incorrectly. There is only one answer which could possibly be correct which is #1.
 
 Sometimes having the "made up" answers that seem plausible is the best way to ensure that one of your distractor answers can't be construed as the correct answer, and therefore becoming an unintentional trick question.
 

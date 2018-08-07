@@ -152,7 +152,7 @@ const myAdder = addFive()
 console.log(myAdder(4))
 ```
 
-In order to get the correct answer, one would have to know how closures work -- even though they might not know what closures are. This is a perfect example of testing someone through concept instead of terminology. And also, this question could be tagged for `Closures` since it's the knowledge unit.
+In order to get the correct answer, one would have to know how closures work -- even though they might not know what the term "closure" is. This is a perfect example of testing someone through concept instead of terminology. And also, this question could be tagged for `Closures` since it's the knowledge unit.
 
 There is a gray area. Sometimes you'll have to use terms to explain your question. Just consider the audience and the complexity of the term. If it's a Beginner JavaScript test, they might not know what an arrow function's implicit return is. For a beginner test (if you think that's a beginner topic) it might be test to test the concept without mentioning the term like we did with closure. But for an Advanced JavaScript test, we can probably assume the test taker knows the basic terms -- just don't write "SAT" style questions like "What is the definition of...". Prefer code questions.
 

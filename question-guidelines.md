@@ -159,7 +159,7 @@ There is a gray area though. Sometimes you'll have to use terms to explain your 
 
 #### Avoid Process-of-Elimination
 
-We've all taken tests where we were able to figure out the correct answer because of poorly conceived distractor options. If a test taker can do well on your test because they're good at eliminating the distractor options, then it's not a very good test. Keep in mind that writing good distractor options is sometimes the difference between a really good question and an average one.
+We've all taken tests that allowed us to figure out the correct answer because of poorly conceived distractor options. If a test taker can do well on your test because they're good at eliminating the distractor options, then it's not a very good test. Keep in mind that writing good distractor options is sometimes the difference between a really good question and an average one.
 
 One idea might be to have a coder friend take the test -- someone who does code but not necessarily in the language that you write the test for. They should do very poorly if they don't know the language. Ask them to identify which questions were easier to guess at.
 

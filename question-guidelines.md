@@ -72,14 +72,14 @@ Now that you have your Subject Lists, start writing a few questions in each subj
 
 ### "Knowledge Unit" Questions
 
-A Knowledge Unit question is meant to test a specific piece of knowledge. As you review your Subject Lists, you might have a subject called "Objects" and perhaps you want to assess whether the test taker knows how to use `instanceof`. Then, "Does the test taker know how to use `instanceOf`?" becomes your Knowledge Unit.
+A knowledge unit question is meant to test a specific piece of knowledge. As you review your Subject Lists, you might have a subject called "Objects" and perhaps you want to assess whether the test taker knows how to use `instanceof`. Then, "Does the test taker know how to use `instanceOf`?" becomes your knowledge unit.
 
 Now let's consider the two main ways that a knowledge unit question is usually written:
 
 1. The knowledge unit is in the question, **or**
 2. The knowledge unit is in the answers.
 
-Here's what a question might look like with the Knowledge Unit in the question:
+Here's what a question might look like with the knowledge unit in the question:
 
 _What is the following code going to output?_
 

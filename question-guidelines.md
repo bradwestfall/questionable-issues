@@ -127,9 +127,10 @@ Sometimes we end up with too much context code in our knowledge unit questions, 
 ## Quality Guidelines
 
 - [Prefer Concepts over Terminology](#prefer-concepts-over-terminology)
-
-
-
+- [Avoid Process-of-Elimination](#avoid-process-of-elimination)
+- [Avoid Trick Questions](#avoid-trick-questions)
+- [Use The "Common" Way](#use-the-common-way)
+- [Patterns and Architecture](#patterns-and-architecture)
 
 #### Prefer Concepts over Terminology
 
@@ -151,4 +152,39 @@ const myAdder = addFive()
 console.log(myAdder(4))
 ```
 
-In order to get the correct answer, one would have to know how closures work -- even though they might not know what closures are. This is a perfect example of testing someone through concept instead of terminology.
+In order to get the correct answer, one would have to know how closures work -- even though they might not know what closures are. This is a perfect example of testing someone through concept instead of terminology. And also, this question could be tagged for `Closures` since it's the knowledge unit.
+
+There is a gray area. Sometimes you'll have to use terms to explain your question. Just consider the audience and the complexity of the term. If it's a Beginner JavaScript test, they might not know what an arrow function's implicit return is. For a beginner test (if you think that's a beginner topic) it might be test to test the concept without mentioning the term like we did with closure. But for an Advanced JavaScript test, we can probably assume the test taker knows the basic terms -- just don't write "SAT" style questions like "What is the definition of...". Prefer code questions.
+
+
+#### Avoid Process-of-Elimination
+
+We've all taken tests where we were able to figure out the correct answer because of poorly conceived distractor options. If a test taker can do well on your test because they're good at eliminating the distractor options, then it's not a very good test. Keep in mind that writing good distractor options is sometimes the difference between a really good question and an average one.
+
+One idea might be to have a coder friend take the test -- someone who does code but not necessarily in the language that you write the test for. They should do very poorly if they don't know the language. Ask them to identify which questions were easier to guess at.
+
+
+#### Avoid Trick Questions
+
+Sometimes it can seem like a thin line between "Avoid Process-of-Elimination" and yet "Avoid Trick Questions". To help with this, just try to write basic strait forward questions with one distinctly correct answer and several distinctly incorrect ones.
+
+For the `instanceof` question we used in previous examples, there were four options to choose from:
+
+1. _`dave instanceof User`_
+2. _`typeof dave === 'Object' && dave.is(User)`_
+3. _`dave.type === User`_
+4. _`typeof dave === User`_
+
+Sometimes you'll have to get creative in writing the distractor answers because you'll have to "make up" coding concepts that don't exist. In this case, I made up `dave.is()` and `dave.type` which don't exist in JavaScript. The fourth answer uses `typeof` which does exist but is used completely incorrectly. There is only one answer which could possibly be correct which is #1.
+
+Sometimes having the "made up" answers that seem plausible is the best way to ensure that one of your distractor answers can't be construed as the correct answer, and therefore becoming an unintentional trick question.
+
+
+#### Use The "Common" Way
+
+Sometimes languages provide a lot of freedom when writing code with various styles. Just try to be cognizant that _your_ preferred way of writing code might not be the common way of writing it, and try to prefer the common way for the questions.
+
+
+#### Patterns and Architecture
+
+Try to avoid testing on specific patterns or architectural decisions which can be viewed as highly subjective or opinionated and presenting them as fact. For example, if there is a pattern that you'd like to ask about, it might not be wise to phrase the question to suggest the pattern is "better than" or "worse than" other options -- especially if these concepts are at all debated in the respective field. An example might be the BEM pattern in CSS. It would not be okay to ask "Which of the following patterns is best suited for this situation". It would be okay though to ask "In the BEM naming pattern, what is a 'modifier' -- the M in BEM". This is much less subjective and has basis in fact.

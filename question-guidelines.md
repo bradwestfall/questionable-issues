@@ -134,7 +134,7 @@ Sometimes we end up with too much context code in our knowledge unit questions, 
 
 #### Prefer Concepts over Terminology
 
-One of the things that makes Questionable a great tool is its code-enabled questions. This uniquely means that we can test for coding concepts over coding jargon. Keep in mind that many talented coders might know how a concept works but not necessarily the correct terminology for that concept. Questions are higher quality when they assess someone's real coding knowledge instead of their knowledge of the correct terms. On Questionable, we want to limit the number of terminology questions to under 10% per test.
+One of the things that makes Questionable a great tool is its code-enabled questions. This uniquely means that we can test for coding concepts over coding jargon. Keep in mind that many talented coders might know how a concept works but not necessarily the correct terminology for that concept. Questions are higher quality when they assess someone's real coding knowledge instead of their knowledge of the correct terms. On Questionable, we want to limit the number of terminology questions to under 10% per test. Please also tag them with `Terminology`.
 
 We do think you should be creative though in assessing whether or not the test taker knows a term without ever having to mention that term. For example, in JavaScript if we want to assess whether someone knows what "closure" is, we can do so without ever mentioning the term closure in the question or the answers. Here's an example question that does just that:
 

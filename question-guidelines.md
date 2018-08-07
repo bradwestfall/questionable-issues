@@ -126,7 +126,7 @@ Sometimes we end up with too much context code in our knowledge unit questions, 
 
 ## Quality Guidelines
 
-- [Prefer Concepts over Terminology](./prefer-concepts-over-terminology)
+- [Prefer Concepts over Terminology](#prefer-concepts-over-terminology)
 
 
 

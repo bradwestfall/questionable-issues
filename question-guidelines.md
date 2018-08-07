@@ -163,7 +163,7 @@ We've all taken tests that allowed us to figure out the correct answer because o
 
 One idea might be to have a coder friend take the test -- someone who does code but not necessarily in the language that you write the test for. They should do very poorly if they don't know the language. Ask them to identify which questions were easier to guess at.
 
-There is also another type of process-of-elimination. Sometimes one of your questions can give away the answers to your other questions. For example, you might have a CSS question that states "What does this pseudo-selector need to accomplish our goal?" By doing so you are telling the test taker exactly what a pseudo selector looks like. That might remind them that just a few questions ago, there was a question asking "What type of selector is this?" -- to which "pseudo selector" was an option. They didn't know the answer before, but they do now. Sometimes these can be difficult to avoid, just be aware of the concept.
+There is also another type of process-of-elimination. Sometimes one of your questions can give away the answers to your other questions. For example, you might have a CSS question that states "What does this pseudo-element need to accomplish our goal?" By doing so you are telling the test taker exactly what a pseudo element looks like. That might remind them that just a few questions ago, there was a question asking "What type of selector is this?" -- to which "pseudo element" was an option. They didn't know the answer before, but they do now. Sometimes these can be difficult to avoid, just be aware of the concept.
 
 
 #### Avoid Trick Questions

@@ -104,7 +104,7 @@ _Assuming you have a `dave` variable and you need to ensure that it is an instan
 3. _`dave.type === User`_
 4. _`typeof dave === User`_
 
-Having the knowledge unit be apart of the question typically alerts to them that _something_ exists and we need to see if they know how it works. If the user didn't know that `instanceof` existed before, they do now. The answer options are then trying to determine if the user knows "how it works".
+Having the knowledge unit be apart of the question typically alerts to them that "_something_" exists and we need to see if they know how it works. If the user didn't know that `instanceof` existed before, they do now. The answer options are then trying to determine if the user knows "how it works".
 
 With the knowledge unit as apart of the answers, the question becomes more about _solving some problem_ and they have to now figure out which options solves that problem.
 

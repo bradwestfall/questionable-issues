@@ -79,7 +79,7 @@ Now let's consider the two main ways that a knowledge unit question is usually w
 1. The knowledge unit is in the question, **or**
 2. The knowledge unit is in the answers.
 
-As an example, you could write the question like this:
+Here's what a question might look like with the Knowledge Unit in the question:
 
 _What is the following code going to output?_
 

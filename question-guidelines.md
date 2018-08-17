@@ -176,7 +176,7 @@ Many of your questions might have a small piece of code with output. Then you as
 _Based on this JavaScript code_
 
 ```js
-const user = { name: 'Clair' };
+const user = { name: 'Clair' }
 const newUser = Object.assign({}, user)
 console.log(user === newUser)
 console.log(user.name === newUser.name)

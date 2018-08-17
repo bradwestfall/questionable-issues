@@ -128,6 +128,7 @@ Sometimes we end up with too much context code in our knowledge unit questions, 
 
 - [Prefer Concepts over Terminology](#prefer-concepts-over-terminology)
 - [Avoid Process-of-Elimination](#avoid-process-of-elimination)
+- [Good Distractor Options](#good-distractor-options)
 - [Avoid Trick Questions](#avoid-trick-questions)
 - [Use The "Common" Way](#use-the-common-way)
 - [Patterns and Architecture](#patterns-and-architecture)
@@ -164,6 +165,26 @@ We've all taken tests that allowed us to figure out the correct answer because o
 One idea might be to have a coder friend take the test -- someone who does code but not necessarily in the language that you write the test for. They should do very poorly if they don't know the language. Ask them to identify which questions were easier to guess at.
 
 There is also another type of process-of-elimination. Sometimes one of your questions can give away the answers to your other questions. For example, you might have a CSS question that states "What does this pseudo-element need to accomplish our goal?" By doing so you are telling the test taker exactly what a pseudo element looks like. That might remind them that earlier in the test there was a question asking "What type of selector is this?" -- to which "pseudo element" was an option. They didn't know what the correct answer was before, but they do now. Sometimes these can be difficult to avoid, just be aware that they can exist.
+
+
+#### Good Distractor Options
+
+You might find that the tricky part in all this is writing the wrong answers. You don't want to have bad wrong answers that are easy to guess and eliminate, so here's a trick you can use to ensure you have some good "distractor" answers:
+
+Many of your questions might have a small piece of code with output. Then you ask the test taker to know what the output will be. But given the nature of some code, you might find that the way the question is written suggests there are only two possible answers. It's pretty difficult to write four choices when you know that the user is going to identify the only two logical possibilities right away (and therefore use process of elimination too easily). Consider this question:
+
+_Based on this JavaScript code_
+
+```js
+const user = { name: 'Clair' };
+const newUser = Object.assign({}, user)
+console.log(user === newUser)
+console.log(user.name === newUser.name)
+```
+
+_What will be the output from the two console-logs?_
+
+The multiple console-logs serve two purposes: For one, we're trying to assess whether the test taker knows the difference between equality of strings and equality of objects. So even with two outputs, this question is still very focused on a single knowledge unit. But also, since each console-log is going to have a boolean output, we now have four possible combinations of `true` and `false`. This makes writing four answers very easy. Can you imagine what the answers would have been if we just had one of the console logs? We would have `true`, then `false`, then it would be difficult to come up with other possible answers that are good enough to prevent process of elimination.
 
 
 #### Avoid Trick Questions

@@ -1,4 +1,4 @@
-# Question Authoring Guidelines
+# Questionable.io Authoring Guidelines
 
 The following is a list of guidelines which we ask all Questionable Marketplace Authors to follow while writing test and question content. These guidelines are meant to keep question writing more consistent among authors and to keep the quality of question writing at a high level.
 
